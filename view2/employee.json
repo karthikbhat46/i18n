@@ -1,0 +1,7 @@
+{
+  "emp":[
+    {"empid":"101" , "empname":"Karthik" , "details":"DETAILS" , "url":"view2/k.jpg"},
+    {"empid":"102" , "empname":"Priya" , "details":"DETAILS" , "url":"view2/k.jpg"},
+    {"empid":"103" , "empname":"Pavithra" , "details":"DETAILS" , "url":"view2/k.jpg"}
+  ]
+}

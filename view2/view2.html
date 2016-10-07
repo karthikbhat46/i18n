@@ -1,0 +1,16 @@
+<p>This is the partial for user page.</p>
+<p>Employee Details</p>
+<table padding="" border="2">
+ <tr>
+   <th>Photo</th>
+   <th>Emp-ID</th>
+   <th>Emp-Name</th>
+   <th>Details</th>
+ </tr>
+ <tr ng-repeat="x in emp">
+   <td><img width="50px" height="50px" ng-src="{{x.url}}" /></td>
+   <td>{{x.empid}}</td>
+   <td>{{x.empname}}</td>
+   <td><a href="#!/emp1/{{x.empid}}">{{x.details}}</a></td>
+ </tr>
+</table>
